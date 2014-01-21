@@ -9,6 +9,10 @@ This is a personal reminder but I share it also :)
 
 ## Installation
 
+- Homebrew
+- Oh My Zsh
+- Rbenv
+- Applications
 
 
 ## Configuration
