@@ -10,6 +10,11 @@ $ brew install wget
 $ brew install curl tree git (git-core ?)
 $ brew install vim
 $ brew install pow
+$ brew install imagemagick
+$ brew install mysql postgresql redis
+$ brew install android-sdk
+$ brew install nginx
+$ brew install automysqlbackup ??
 ```
 
 http://robots.thoughtbot.com/starting-and-stopping-background-services-with-homebrew
@@ -26,6 +31,7 @@ Install oh my zsh
 brew install rbenv
 ```
 https://gist.github.com/brentertz/1384279
+https://gist.github.com/jpantuso/1110217
 
 # Mac softwares
 
@@ -34,7 +40,7 @@ https://gist.github.com/brentertz/1384279
 **https://github.com/caskroom/homebrew-versions**
 
 - Anvil
-- Sublime text
+- Sublime text (write basics preferences)
 - Sequel pro
 - Kaleidoscope
 - MysqlWorkbench
