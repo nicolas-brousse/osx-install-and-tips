@@ -17,7 +17,7 @@ https://gist.github.com/jpantuso/1110217
 
 
 
-## Ruby tools
+## Ruby and web tools
 
 ```bash
 $ brew install pow
