@@ -25,7 +25,6 @@ $ brew install mysql postgresql redis
 
 ```bash
 $ brew install android-sdk
-$ brew install nginx
 $ brew install automysqlbackup ??
 
 $ brew install zsh
