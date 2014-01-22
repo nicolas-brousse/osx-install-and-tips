@@ -5,6 +5,36 @@ title: GUI Applications
 
 **DRAFT**
 
+## Installation
+
+```bash
+$ brew tap phinze/cask
+$ brew install brew-cask
+```
+
+## Applications
+
+### Commons applications
+
+```bash
+$ brew cask install google-chrome dropbox droplr 
+```
+
+
+### Dev applications
+
+```bash
+$ brew cask install cocoa-rest-client sequel-pro sublime-text 
+```
+
+
+### Conception applications
+
+```bash
+$ brew cask install mysql-workbench xmind
+```
+
+
 **https://github.com/phinze/homebrew-cask**
 **https://github.com/caskroom/homebrew-fonts**
 **https://github.com/caskroom/homebrew-versions**
