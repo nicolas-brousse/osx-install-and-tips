@@ -77,3 +77,4 @@ https://gist.github.com/jpantuso/1110217
 
 - Boxen?
 - Vagrant?
+- Puppet ?
