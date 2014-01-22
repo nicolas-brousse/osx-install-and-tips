@@ -17,11 +17,6 @@ $ brew install vim
 $ brew install imagemagick
 ```
 
-## Databases
-
-```bash
-$ brew install mysql postgresql redis
-```
 
 ```bash
 $ brew install android-sdk
