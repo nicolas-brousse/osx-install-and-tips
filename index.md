@@ -3,16 +3,16 @@ layout: default
 title: Home
 ---
 
-# Summary
+## Summary
 
 This is a personal reminder but I share it also :)
 
 ## Installation
 
-- Homebrew
-- Oh My Zsh
-- Rbenv
-- Applications
+1. [Oh My Zsh]({{ site.baseurl }}/pages/installation/oh-my-zsh)
+2. [Homebrew]({{ site.baseurl }}/pages/installation/homebrew)
+3. [Rbenv]({{ site.baseurl }}/pages/installation/rbenv)
+4. [GUI apps]({{ site.baseurl }}/pages/installation/gui-apps)
 
 
 ## Configuration
@@ -32,6 +32,7 @@ This is a personal reminder but I share it also :)
 ## Tools
 
 - [Din'hosting tools](http://outils.dinhosting.fr)
+- [Ubuntu install and tips](http://nicolas-brousse.github.io/ubuntu-install-and-tips/)
 
 
 ------------------------------------------------------------
