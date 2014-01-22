@@ -23,3 +23,9 @@ https://gist.github.com/jpantuso/1110217
 $ brew install pow
 $ brew install nginx
 ```
+
+### Databases
+
+```bash
+$ brew install mysql postgresql redis
+```
