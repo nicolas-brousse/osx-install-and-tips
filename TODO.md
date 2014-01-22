@@ -23,6 +23,8 @@ http://robots.thoughtbot.com/starting-and-stopping-background-services-with-home
 
 Install oh my zsh
 
+Upgrade with: `upgrade_oh_my_zsh`
+
 # Project directory
 
 # RVM or Rbenv ?
