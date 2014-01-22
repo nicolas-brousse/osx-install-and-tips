@@ -20,6 +20,8 @@ $ brew install mysql postgresql redis
 $ brew install android-sdk
 $ brew install nginx
 $ brew install automysqlbackup ??
+
+$ brew install zsh
 ```
 
 http://robots.thoughtbot.com/starting-and-stopping-background-services-with-homebrew
