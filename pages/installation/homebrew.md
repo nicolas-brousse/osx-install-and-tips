@@ -14,9 +14,16 @@ $ brew install openssl
 $ brew install wget
 $ brew install curl tree git (git-core ?)
 $ brew install vim
-$ brew install pow
 $ brew install imagemagick
+```
+
+## Databases
+
+```bash
 $ brew install mysql postgresql redis
+```
+
+```bash
 $ brew install android-sdk
 $ brew install nginx
 $ brew install automysqlbackup ??
