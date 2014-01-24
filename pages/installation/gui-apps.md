@@ -56,7 +56,7 @@ $ brew cask install mysql-workbench xmind
 - Dropbox
 - Droplr
 - Github
-- Google Chrome
+- google-chrome opera firefox
 - Google Drive
 
 
@@ -69,6 +69,12 @@ $ brew cask install mysql-workbench xmind
 - Transmit
 - Tower
 - Mou
+ 
+
+- android-studio
+- imageoptim imagealpha
+- cocoapacketanalyzer
+- alfred
 
 
 (- Speedlimit )
