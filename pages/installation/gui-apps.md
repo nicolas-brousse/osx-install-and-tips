@@ -17,14 +17,27 @@ $ brew install brew-cask
 ### Commons applications
 
 ```bash
-$ brew cask install google-chrome dropbox droplr 
+$ brew cask install dropbox droplr alfred
+```
+
+
+### Browsers
+
+```bash
+$ brew cask install google-chrome firefox opera
 ```
 
 
 ### Dev applications
 
 ```bash
-$ brew cask install cocoa-rest-client sequel-pro sublime-text 
+$ brew cask install cocoa-rest-client sequel-pro sublime-text github tower
+# For ruby
+$ brew cask install pow anvil
+# For pictures
+$ brew cask install imageoptim imagealpha
+# For networks
+$ brew cask install cocoapacketanalyzer
 ```
 
 
@@ -32,6 +45,7 @@ $ brew cask install cocoa-rest-client sequel-pro sublime-text
 
 ```bash
 $ brew cask install mysql-workbench xmind
+$ brew cask install omnigraffle omniPlan
 ```
 
 
