@@ -1,0 +1,14 @@
+---
+layout: default
+title: Pages
+---
+
+<h1>Pages</h1>
+
+<ul>
+{% for p in site.pages %}
+    {% unless p.url == page.url %}
+    <li><a href="{{ site.baseurl }}/{{ p.url }}">{{ p.title }}</a></li>
+    {% endunless %}
+{% endfor %}
+</ul>

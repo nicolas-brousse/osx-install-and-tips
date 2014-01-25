@@ -17,7 +17,7 @@ $ brew install brew-cask
 ### Commons applications
 
 ```bash
-$ brew cask install dropbox droplr alfred
+$ brew cask install dropbox droplr alfred pocket
 ```
 
 
@@ -45,9 +45,12 @@ $ brew cask install cocoapacketanalyzer
 
 ```bash
 $ brew cask install mysql-workbench xmind
-$ brew cask install omnigraffle omniPlan
+$ brew cask install omnigraffle omniplan
 ```
 
+## Others app available
+
+See this list: https://github.com/phinze/homebrew-cask/tree/master/Casks
 
 **https://github.com/phinze/homebrew-cask**
 **https://github.com/caskroom/homebrew-fonts**
@@ -83,7 +86,7 @@ $ brew cask install omnigraffle omniPlan
 - Transmit
 - Tower
 - Mou
- 
+
 
 - android-studio
 - imageoptim imagealpha
