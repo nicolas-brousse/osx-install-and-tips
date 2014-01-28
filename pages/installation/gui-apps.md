@@ -86,6 +86,7 @@ See this list: https://github.com/phinze/homebrew-cask/tree/master/Casks
 - Transmit
 - Tower
 - Mou
+- TeamViewer
 
 
 - android-studio
