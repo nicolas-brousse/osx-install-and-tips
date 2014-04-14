@@ -8,7 +8,7 @@ title: Rbenv
 ## Installation
 
 ```bash
-brew install rbenv
+brew install rbenv ruby-build
 ```
 https://gist.github.com/brentertz/1384279  
 https://gist.github.com/jpantuso/1110217  
@@ -28,5 +28,5 @@ $ brew install nginx
 ### Databases
 
 ```bash
-$ brew install mysql postgresql redis
+$ brew install [mysql] postgresql redis
 ```
