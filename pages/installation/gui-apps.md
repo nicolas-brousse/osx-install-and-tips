@@ -46,6 +46,7 @@ $ brew cask install cocoapacketanalyzer
 ```bash
 $ brew cask install mysql-workbench xmind
 $ brew cask install omnigraffle omniplan
+$ brew cask install adobe-creative-cloud
 ```
 
 ## Others app available
