@@ -95,6 +95,7 @@ See this list: https://github.com/phinze/homebrew-cask/tree/master/Casks
 - cocoapacketanalyzer
 - alfred
 
+- screenhero
 
 (- Speedlimit )
 
