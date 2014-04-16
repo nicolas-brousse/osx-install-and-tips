@@ -38,6 +38,4 @@ _p() { _files -W ~/Projects -/; }
 compdef _p p
 ```
 
-_Note: It's a fork of https://github.com/robbyrussell/oh-my-zsh_
-
 _Upgrade with: `upgrade_oh_my_zsh`_
