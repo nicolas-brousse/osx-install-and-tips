@@ -3,20 +3,46 @@ layout: page
 title: Rbenv
 ---
 
-**DRAFT**
-
 ## Installation
 
 ```bash
-brew install rbenv ruby-build
+brew install rbenv ruby-build [rbenv-gem-rehash]
 ```
+
+
+
 https://gist.github.com/brentertz/1384279  
 https://gist.github.com/jpantuso/1110217  
 http://www.bounga.org/ruby/2012/02/06/pow-using-rbenv/
+http://robots.thoughtbot.com/using-rbenv-to-manage-rubies-and-gems
 
 ## Configuration
 
+```bash
+$ echo 'eval "$(rbenv init -)"' >> ~/.zlogin
+$ source ~/.zlogin
+```
 
+## Install ruby
+
+```bash
+$ rbenv install 2.1.1
+$ rbenv global 2.1.1
+```
+
+```bash
+$ gem update --system
+```
+
+## Config gem and install commons gem for rails dev
+
+```bash
+$ echo 'gem: --no-rdoc --no-ri' >> ~/.gemrc
+```
+
+```bash
+$ gem install bundler foreman pg rails --no-rdoc --no-ri
+```
 
 ## Ruby and web tools
 
