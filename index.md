@@ -27,7 +27,7 @@ This is a personal reminder but I share it also :)
 
 ## Others
 
-- [Commands]({{ site.baseurl }}/others/commands)
+- [Commands]({{ site.baseurl }}/pages/others/commands)
 
 
 ## Tools
