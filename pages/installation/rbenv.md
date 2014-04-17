@@ -47,8 +47,7 @@ $ gem install bundler foreman pg rails --no-rdoc --no-ri
 ## Ruby and web tools
 
 ```bash
-$ brew install pow
-$ brew install nginx
+$ curl get.pow.cx | sh
 ```
 
 ### Databases
