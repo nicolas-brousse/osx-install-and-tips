@@ -3,8 +3,6 @@ layout: page
 title: GUI Applications
 ---
 
-**DRAFT**
-
 ## Installation
 
 ```bash
@@ -17,7 +15,10 @@ $ brew install brew-cask
 ### Commons applications
 
 ```bash
-$ brew cask install dropbox droplr alfred pocket
+$ brew cask install dropbox droplr alfred pocket evernote alfred
+
+# Chat
+$ brew cask install skype screenhero
 ```
 
 
@@ -31,20 +32,24 @@ $ brew cask install google-chrome firefox opera
 ### Dev applications
 
 ```bash
-$ brew cask install cocoa-rest-client sequel-pro sublime-text github tower
+# To code
+$ brew cask install cocoa-rest-client sequel-pro sublime-text github tower kaleidoscope
+
 # For ruby
-$ brew cask install pow anvil
+$ brew cask install anvil
+
 # For pictures
 $ brew cask install imageoptim imagealpha
+
 # For networks
-$ brew cask install cocoapacketanalyzer
+$ brew cask install cocoapacketanalyzer speedlimit
 ```
 
 
 ### Conception applications
 
 ```bash
-$ brew cask install mysql-workbench xmind
+$ brew cask install mysqlworkbench xmind
 $ brew cask install omnigraffle omniplan
 $ brew cask install adobe-creative-cloud
 ```
