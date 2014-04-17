@@ -37,4 +37,3 @@ This is a personal reminder but I share it also :)
 
 
 ------------------------------------------------------------
-Thanks to [@kevynlebouille](http://twitter.com/kevynlebouille) for some helps and tips.
