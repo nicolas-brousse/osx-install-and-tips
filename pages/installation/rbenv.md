@@ -6,7 +6,7 @@ title: Rbenv
 ## Installation
 
 ```bash
-brew install rbenv ruby-build [rbenv-gem-rehash]
+brew install rbenv ruby-build [rbenv-gem-rehash rbenv-bundler]
 ```
 
 
@@ -19,7 +19,7 @@ http://robots.thoughtbot.com/using-rbenv-to-manage-rubies-and-gems
 ## Configuration
 
 ```bash
-$ echo 'eval "$(rbenv init -)"' >> ~/.zlogin
+$ echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.zlogin
 $ source ~/.zlogin
 ```
 
