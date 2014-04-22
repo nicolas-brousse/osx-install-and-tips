@@ -9,8 +9,8 @@ This is a personal reminder but I share it also :)
 
 ## Installation
 
-1. [Homebrew]({{ site.baseurl }}/pages/installation/homebrew)
-2. [Oh My Zsh]({{ site.baseurl }}/pages/installation/oh-my-zsh)
+1. [Oh My Zsh]({{ site.baseurl }}/pages/installation/oh-my-zsh)
+2. [Homebrew]({{ site.baseurl }}/pages/installation/homebrew)
 3. [Rbenv]({{ site.baseurl }}/pages/installation/rbenv)
 4. [GUI apps]({{ site.baseurl }}/pages/installation/gui-apps)
 
