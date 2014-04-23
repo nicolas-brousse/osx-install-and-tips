@@ -44,8 +44,8 @@ compdef _p p
 Other
 
 ```bash
-$ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zprofile
-$ source ~/.zprofile
+$ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zlogin
+$ source ~/.zlogin
 ```
 
 _Upgrade with: `upgrade_oh_my_zsh`_
