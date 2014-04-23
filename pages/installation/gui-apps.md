@@ -45,7 +45,7 @@ $ brew cask install google-chrome [firefox] [opera]
 ```bash
 # To code
 $ brew cask install cocoarestclient sequel-pro sublime-text
-$ brew cask install github tower kaleidoscope
+$ brew cask install github tower kaleidoscope transmit
 
 # For ruby
 $ brew cask install anvil
