@@ -27,6 +27,7 @@ $ source ~/.zprofile
 
 ```bash
 $ rbenv install 2.1.1
+# Temporary installation with: curl -fsSL https://gist.github.com/mislav/a18b9d7f0dc5b9efc162.txt | rbenv install --patch 2.1.1
 $ rbenv global 2.1.1
 ```
 
