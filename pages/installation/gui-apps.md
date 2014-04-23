@@ -20,6 +20,12 @@ $ brew cask install dropbox droplr alfred pocket evernote
 $ brew cask install skype screenhero
 ```
 
+Link alfred to brew cask (Lauch it first)
+
+```bash
+$ brew cask alfred link
+```
+
 
 ### Browsers
 
