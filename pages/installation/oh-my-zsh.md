@@ -45,6 +45,7 @@ Other
 
 ```bash
 $ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zprofile
+$ source ~/.zprofile
 ```
 
 _Upgrade with: `upgrade_oh_my_zsh`_
