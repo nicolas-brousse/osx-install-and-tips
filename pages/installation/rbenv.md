@@ -6,7 +6,7 @@ title: Rbenv
 ## Installation
 
 ```bash
-brew install rbenv ruby-build [rbenv-gem-rehash rbenv-bundler]
+$ brew install rbenv ruby-build
 ```
 
 
@@ -44,13 +44,19 @@ $ echo 'gem: --no-rdoc --no-ri' >> ~/.gemrc
 $ gem install bundler foreman pg rails --no-rdoc --no-ri
 ```
 
+## Rbenv plugins
+
+```bash
+brew install rbenv-gem-rehash rbenv-bundler
+```
+
 ## Ruby and web tools
 
 ```bash
 $ curl get.pow.cx | sh
 ```
 
-### Databases
+## Databases
 
 ```bash
 $ brew install [mysql] postgresql redis
