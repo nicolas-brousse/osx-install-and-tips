@@ -3,7 +3,7 @@ layout: page
 title: GUI Applications
 ---
 
-## Installation
+## Installation (http://caskroom.io)
 
 ```bash
 $ brew install phinze/cask/brew-cask
@@ -14,10 +14,16 @@ $ brew install phinze/cask/brew-cask
 ### Commons applications
 
 ```bash
-$ brew cask install dropbox droplr alfred pocket evernote
+$ brew cask install alfred pocket evernote
 
 # Chat
 $ brew cask install skype screenhero
+
+# Cloud services
+$ brew cask install dropbox droplr google-drive
+
+# Others
+$ brew cask install vlc spotify onyx mou caffeine
 ```
 
 Link alfred to brew cask (Lauch it first)
@@ -44,7 +50,7 @@ $ brew cask install cocoarestclient sequel-pro sublime-text github tower kaleido
 $ brew cask install anvil
 
 # For pictures
-$ brew cask install imageoptim imagealpha
+$ brew cask install imageoptim imagealpha texturepacker
 
 # For networks
 $ brew cask install cocoapacketanalyzer speedlimit
@@ -67,54 +73,18 @@ See this list: https://github.com/phinze/homebrew-cask/tree/master/Casks
 **https://github.com/caskroom/homebrew-fonts**
 **https://github.com/caskroom/homebrew-versions**
 
-- Anvil
+---
+
+### TODO
+
 - Sublime text (write basics preferences)
-- Sequel pro
-- Kaleidoscope
-- MysqlWorkbench
-- CocoaRestClient
 
 
 - Parallels
 - VirutalBox
-- Omnigraffle
-- OmniPlan
 
-
-- Dropbox
-- Droplr
-- Github
-- google-chrome opera firefox
-- Google Drive
-
-
-- Xmind
-- VLC
-- Spotify
-- Skype
-- Onyx
-- Caffeine
-- Transmit
-- Tower
-- Mou
 - TeamViewer
 
-
 - android-studio
-- imageoptim imagealpha
-- cocoapacketanalyzer
-- alfred
-
-- screenhero
-
-(- Speedlimit )
 
 - Vagrant
-
-
-
-
-
-
-
-http://caskroom.io
