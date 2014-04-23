@@ -6,8 +6,7 @@ title: GUI Applications
 ## Installation
 
 ```bash
-$ brew tap phinze/cask
-$ brew install brew-cask
+$ brew install phinze/cask/brew-cask
 ```
 
 ## Applications
@@ -15,7 +14,7 @@ $ brew install brew-cask
 ### Commons applications
 
 ```bash
-$ brew cask install dropbox droplr alfred pocket evernote alfred
+$ brew cask install dropbox droplr alfred pocket evernote
 
 # Chat
 $ brew cask install skype screenhero
@@ -25,7 +24,7 @@ $ brew cask install skype screenhero
 ### Browsers
 
 ```bash
-$ brew cask install google-chrome firefox opera
+$ brew cask install google-chrome [firefox] [opera]
 ```
 
 
@@ -105,3 +104,11 @@ See this list: https://github.com/phinze/homebrew-cask/tree/master/Casks
 (- Speedlimit )
 
 - Vagrant
+
+
+
+
+
+
+
+http://caskroom.io
