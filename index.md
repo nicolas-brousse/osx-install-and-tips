@@ -22,6 +22,7 @@ This is a personal reminder but I share it also :)
 
 ## Tips
 
+* [Homebrew]({{ site.baseurl }}/pages/tips/homebrew)
 
 
 
