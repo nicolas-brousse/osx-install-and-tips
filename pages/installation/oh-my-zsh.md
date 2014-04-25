@@ -46,11 +46,4 @@ alias bubu="brew update && brew upgrade"
 
 ```
 
-Other
-
-```bash
-$ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zlogin
-$ source ~/.zlogin
-```
-
 _Upgrade with: `upgrade_oh_my_zsh`_
