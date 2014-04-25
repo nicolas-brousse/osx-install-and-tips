@@ -20,6 +20,18 @@ $ brew install vim
 $ brew install imagemagick
 ```
 
+
+## Configure PATH
+
+```bash
+$ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zlogin
+$ source ~/.zlogin
+```
+
+```bash
+$ brew doctor
+```
+
 ## Links
 
 - http://robots.thoughtbot.com/starting-and-stopping-background-services-with-homebrew
