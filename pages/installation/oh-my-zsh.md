@@ -14,7 +14,7 @@ ZSH_THEME="nicolas-brousse"
 
 ...
 
-plugins=(nicolas-brousse git osx rbenv brew brew-cask bundler colorize sublime rails pow lol gitignore github gem encode64 docker colored-man capistrano)
+plugins=(nicolas-brousse git osx rbenv brew brew-cask bundler colorize sublime atom rails pow lol gitignore github gem encode64 docker colored-man capistrano systemadmin)
 
 # Uncomment this line 
 export ARCHFLAGS="-arch x86_64"
