@@ -24,8 +24,8 @@ $ brew install imagemagick
 ## Configure PATH
 
 ```bash
-$ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zlogin
-$ source ~/.zlogin
+# $ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zlogin
+# $ source ~/.zlogin
 ```
 
 ```bash
