@@ -18,6 +18,7 @@ This is a personal reminder but I share it also :)
 ## Configuration
 
 * [Sublime text]({{ site.baseurl }}/pages/configuration/sublime-text)
+* [Atom]({{ site.baseurl }}/pages/configuration/atom)
 
 
 ## Tips

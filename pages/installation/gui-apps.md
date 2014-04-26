@@ -21,9 +21,11 @@ $ brew cask install skype screenhero
 
 # Cloud services
 $ brew cask install dropbox droplr google-drive
+$ brew cask install synology-cloud-station
 
 # Others
-$ brew cask install vlc spotify onyx mou caffeine
+$ brew cask install vlc spotify onyx mou
+$ brew cask install caffeine jumpcut quicklook-json
 ```
 
 Link alfred to brew cask (Lauch it first)
@@ -44,8 +46,8 @@ $ brew cask install google-chrome [firefox] [opera]
 
 ```bash
 # To code
-$ brew cask install cocoarestclient sequel-pro sublime-text
-$ brew cask install github tower kaleidoscope transmit
+$ brew cask install cocoarestclient sequel-pro sublime-text atom
+$ brew cask install github tower kaleidoscope transmit virtualbox
 
 # For ruby
 $ brew cask install anvil
