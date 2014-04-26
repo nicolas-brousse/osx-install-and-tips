@@ -16,14 +16,14 @@ ZSH_THEME="nicolas-brousse"
 
 plugins=(nicolas-brousse git osx rbenv brew brew-cask bundler colorize sublime atom rails pow lol gitignore github gem encode64 docker colored-man capistrano systemadmin)
 
-# Uncomment this line 
+# Uncomment this line
 export ARCHFLAGS="-arch x86_64"
 ```
 
 Create the theme
 
 ```bash
-# ~/.oh-my-zsh/themes/nicolas-brousse.zsh-theme
+# ~/.oh-my-zsh/custom/themes/nicolas-brousse.zsh-theme
 local ret_status="%(?:%{$fg[cyan]%}➜ :%{$fg[red]%}➜ %s)"
 PROMPT='${ret_status}%{$reset_color%}%c$(git_prompt_info) %{$fg[cyan]%}%#%{$reset_color%} '
 
@@ -36,7 +36,7 @@ ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%}✗%{$reset_color%}"
 Create plugin
 
 ```bash
-# ~/.oh-my-zsh/plugins/nicolas-brousse/nicolas-brousse.plugin.zsh
+# ~/.oh-my-zsh/custom/plugins/nicolas-brousse/nicolas-brousse.plugin.zsh
 p() { cd ~/Projects/$1; }
 _p() { _files -W ~/Projects -/; }
 compdef _p p
