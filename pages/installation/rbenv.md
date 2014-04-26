@@ -19,8 +19,8 @@ http://robots.thoughtbot.com/using-rbenv-to-manage-rubies-and-gems
 ## Configuration
 
 ```bash
-$ echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.zlogin
-$ source ~/.zlogin
+# $ echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.zlogin
+# $ source ~/.zlogin
 ```
 
 ## Install ruby
