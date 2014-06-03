@@ -43,6 +43,7 @@ compdef _p p
 
 # Alias
 alias bubu="brew update && brew upgrade"
+alias jekyllserve="jekyll serve -w -b ''"
 
 ```
 

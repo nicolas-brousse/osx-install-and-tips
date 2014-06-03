@@ -37,7 +37,7 @@ $ brew doctor
 
 #### Commands
 
-`brew services list`: list all running services
+`brew services list`: list all running services  
 `brew services start|stop|restart [service name]`: list all running services
 
 #### Links
