@@ -17,22 +17,30 @@ $ brew install openssl
 $ brew install wget
 $ brew install curl tree git
 $ brew install vim
-$ brew install imagemagick
+$ brew install imagemagick jpegoptim
+$ brew install ffmpeg
+$ brew install node
+$ brew install heroku-toolbelt
 ```
 
-
-## Configure PATH
+## Databases
 
 ```bash
-# $ echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zlogin
-# $ source ~/.zlogin
+$ brew install postgresql redis memcached [mysql] [sqlite]
 ```
+
+## Checks all is good
 
 ```bash
 $ brew doctor
 ```
 
-## Links
+#### Commands
+
+`brew services list`: list all running services
+`brew services start|stop|restart [service name]`: list all running services
+
+#### Links
 
 - http://robots.thoughtbot.com/starting-and-stopping-background-services-with-homebrew
 - http://robots.thoughtbot.com/brewfile-a-gemfile-but-for-homebrew

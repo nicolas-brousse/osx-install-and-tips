@@ -16,19 +16,13 @@ https://gist.github.com/jpantuso/1110217
 http://www.bounga.org/ruby/2012/02/06/pow-using-rbenv/
 http://robots.thoughtbot.com/using-rbenv-to-manage-rubies-and-gems
 
-## Configuration
-
-```bash
-# $ echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.zlogin
-# $ source ~/.zlogin
-```
 
 ## Install ruby
 
 ```bash
-$ rbenv install 2.1.1
-# Temporary installation with: curl -fsSL https://gist.github.com/mislav/a18b9d7f0dc5b9efc162.txt | rbenv install --patch 2.1.1
-$ rbenv global 2.1.1
+$ rbenv install 2.1.2
+# Define ruby 2.1.2 as default
+$ rbenv global 2.1.2
 ```
 
 ```bash
@@ -42,7 +36,7 @@ $ echo 'gem: --no-rdoc --no-ri' >> ~/.gemrc
 ```
 
 ```bash
-$ gem install bundler foreman pg rails --no-rdoc --no-ri
+$ gem install bundler foreman pg rails
 ```
 
 ## Rbenv plugins
@@ -51,14 +45,8 @@ $ gem install bundler foreman pg rails --no-rdoc --no-ri
 brew install rbenv-gem-rehash rbenv-bundler
 ```
 
-## Ruby and web tools
+## Pow.cx - zero-config Rack server
 
 ```bash
 $ curl get.pow.cx | sh
-```
-
-## Databases
-
-```bash
-$ brew install [mysql] postgresql redis
 ```

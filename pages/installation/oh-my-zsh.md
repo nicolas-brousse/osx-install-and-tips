@@ -7,20 +7,20 @@ title: Oh My Zsh
 $ curl -L http://install.ohmyz.sh | sh
 ```
 
-Update config
+### Update config
 
 ```bash
 ZSH_THEME="nicolas-brousse"
 
 ...
 
-plugins=(nicolas-brousse git osx rbenv brew brew-cask bundler colorize sublime atom rails pow lol gitignore github gem encode64 docker colored-man capistrano xcode)
+plugins=(nicolas-brousse git osx rbenv brew brew-cask bundler colorize sublime atom rails pow lol gitignore github gem encode64 docker colored-man capistrano xcode heroku vagrant)
 
 # Uncomment this line
 export ARCHFLAGS="-arch x86_64"
 ```
 
-Create the theme
+### Create the theme
 
 ```bash
 # ~/.oh-my-zsh/custom/themes/nicolas-brousse.zsh-theme
@@ -33,7 +33,7 @@ ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%}✗%{$reset_color%}"
 
 ```
 
-Create plugin
+### Create plugin
 
 ```bash
 # ~/.oh-my-zsh/custom/plugins/nicolas-brousse/nicolas-brousse.plugin.zsh
@@ -46,4 +46,6 @@ alias bubu="brew update && brew upgrade"
 
 ```
 
-_Upgrade with: `upgrade_oh_my_zsh`_
+#### Commands
+
+`upgrade_oh_my_zsh`: upgrade oh my zsh
