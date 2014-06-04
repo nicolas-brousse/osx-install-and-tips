@@ -26,7 +26,8 @@ $ brew install heroku-toolbelt
 ## Databases
 
 ```bash
-$ brew install postgresql redis memcached [mysql] [sqlite]
+$ brew install postgresql [mysql] [sqlite]
+$ brew install redis memcached
 ```
 
 ## Checks all is good
@@ -35,17 +36,15 @@ $ brew install postgresql redis memcached [mysql] [sqlite]
 $ brew doctor
 ```
 
-#### Commands
+## Tips
 
-`brew services list`: list all running services  
-`brew services start|stop|restart [service name]`: list all running services
+Somes tips [here]({{ site.baseurl }}/pages/tips/homebrew).
 
+---
 #### Links
 
 - http://robots.thoughtbot.com/starting-and-stopping-background-services-with-homebrew
 - http://robots.thoughtbot.com/brewfile-a-gemfile-but-for-homebrew
-
----
 
 ```bash
 $ brew install android-sdk

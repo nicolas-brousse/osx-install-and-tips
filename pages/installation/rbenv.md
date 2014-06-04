@@ -9,13 +9,11 @@ title: Rbenv
 $ brew install rbenv ruby-build
 ```
 
+## Rbenv plugins
 
-
-https://gist.github.com/brentertz/1384279  
-https://gist.github.com/jpantuso/1110217  
-http://www.bounga.org/ruby/2012/02/06/pow-using-rbenv/
-http://robots.thoughtbot.com/using-rbenv-to-manage-rubies-and-gems
-
+```bash
+brew install rbenv-gem-rehash [rbenv-bundler]
+```
 
 ## Install ruby
 
@@ -39,14 +37,21 @@ $ echo 'gem: --no-rdoc --no-ri' >> ~/.gemrc
 $ gem install bundler foreman pg rails
 ```
 
-## Rbenv plugins
-
-```bash
-brew install rbenv-gem-rehash rbenv-bundler
-```
-
 ## Pow.cx - zero-config Rack server
 
 ```bash
 $ curl get.pow.cx | sh
 ```
+
+## Tips
+
+Somes tips [here]({{ site.baseurl }}/pages/tips/rbenv).
+
+---
+
+#### Links
+
+https://gist.github.com/brentertz/1384279  
+https://gist.github.com/jpantuso/1110217  
+http://www.bounga.org/ruby/2012/02/06/pow-using-rbenv/
+http://robots.thoughtbot.com/using-rbenv-to-manage-rubies-and-gems

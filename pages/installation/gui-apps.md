@@ -14,10 +14,11 @@ $ brew install phinze/cask/brew-cask
 ### Commons applications
 
 ```bash
-$ brew cask install alfred pocket evernote
+$ brew cask install alfred evernote
 
 # Chat
 $ brew cask install skype screenhero
+$ brew cask install teamviewer
 
 # Cloud services
 $ brew cask install dropbox droplr google-drive
@@ -47,7 +48,11 @@ $ brew cask install google-chrome [firefox] [opera]
 ```bash
 # To code
 $ brew cask install cocoarestclient sequel-pro sublime-text atom
-$ brew cask install github tower kaleidoscope transmit virtualbox
+$ brew cask install github tower kaleidoscope transmit
+$ brew cask install virtualbox vagrant-manager vagrant
+
+# Android
+$ brew cask install android-studio # No already tested
 
 # For ruby
 $ brew cask install anvil
@@ -80,14 +85,4 @@ See this list: https://github.com/phinze/homebrew-cask/tree/master/Casks
 
 ### TODO
 
-- Sublime text (write basics preferences)
-
-
 - Parallels
-- VirutalBox
-
-- TeamViewer
-
-- android-studio
-
-- Vagrant
