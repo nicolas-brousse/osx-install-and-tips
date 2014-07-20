@@ -15,3 +15,11 @@ $ sudo killall -HUP mDNSResponder
 say -f <textfile> -o <outputfile> -v <voice>
 say -f input.txt -o output.aiff -v alex
 ```
+
+
+# Checksum
+
+*shasum*
+```bash
+shasum -a 512 /path/to/file
+```
