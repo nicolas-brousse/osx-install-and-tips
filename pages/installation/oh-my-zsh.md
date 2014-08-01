@@ -42,7 +42,6 @@ _p() { _files -W ~/Projects -/; }
 compdef _p p
 
 # Alias
-alias bubu="brew update && brew upgrade && brew cleanup"
 alias jekyllserve="jekyll serve -w -b ''"
 
 ```
