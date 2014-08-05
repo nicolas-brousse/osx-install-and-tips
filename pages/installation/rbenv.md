@@ -15,6 +15,10 @@ $ brew install rbenv ruby-build
 brew install rbenv-gem-rehash [rbenv-bundler]
 ```
 
+## OhMyZsh
+
+Add the `rbenv` plugin to OhMyZsh config.
+
 ## Install ruby
 
 ```bash
