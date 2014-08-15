@@ -9,7 +9,7 @@ $ sudo killall -HUP mDNSResponder
 ```
 
 
-# VoiceOver
+## VoiceOver
 
 ```bash
 $ say -f <textfile> -o <outputfile> -v <voice>
@@ -17,7 +17,7 @@ $ say -f input.txt -o output.aiff -v alex
 ```
 
 
-# Checksum
+## Checksum
 
 *shasum*
 
@@ -25,11 +25,17 @@ $ say -f input.txt -o output.aiff -v alex
 $ shasum -a 512 /path/to/file
 ```
 
-# Show/Hide file/folder in the Finder
+## Show/Hide file/folder in the Finder
 
 ```bash
 # Hide
 $ setfile -a V testfile.txt
 # Show
 $ setfile -a v testfile.txt
+```
+
+## Speed test
+
+```bash
+wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip
 ```
