@@ -37,9 +37,15 @@ $ setfile -a v testfile.txt
 ## Speed test
 
 ```bash
-wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip
+$ wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip
 
-wget -O /dev/null http://ipv6.intuxication.testdebit.info/fichiers/1Mo.dat # 1Mo
-wget -O /dev/null http://ipv6.intuxication.testdebit.info/fichiers/100Mo.dat # 100Mo
-wget -O /dev/null http://ipv6.intuxication.testdebit.info/fichiers/1000Mo.dat # 1Go
+$ wget -O /dev/null http://ipv6.intuxication.testdebit.info/fichiers/1Mo.dat # 1Mo
+$ wget -O /dev/null http://ipv6.intuxication.testdebit.info/fichiers/100Mo.dat # 100Mo
+$ wget -O /dev/null http://ipv6.intuxication.testdebit.info/fichiers/1000Mo.dat # 1Go
+```
+
+## Get mime type
+
+```bash
+$ file --mime /path/to/file.txt
 ```
