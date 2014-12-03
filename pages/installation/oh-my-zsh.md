@@ -14,7 +14,7 @@ ZSH_THEME="nicolas-brousse"
 
 ...
 
-plugins=(nicolas-brousse git osx rbenv brew brew-cask bundler colorize sublime atom rails pow lol gitignore github gem encode64 docker colored-man capistrano xcode heroku vagrant systemadmin)
+plugins=(nicolas-brousse git osx rbenv brew brew-cask bundler colorize sublime atom rails pow lol gitignore github gem encode64 docker colored-man capistrano xcode heroku vagrant systemadmin battery gittower ssh-agent)
 
 # Uncomment this line
 export ARCHFLAGS="-arch x86_64"
@@ -43,6 +43,15 @@ compdef _p p
 
 # Alias
 alias jekyllserve="jekyll serve -w -b ''"
+
+```
+# ~/.oh-my-zsh/custom/plugins/nicolas-brousse/gittower.plugin.zsh
+alias gt="gittower"
+alias gtt="gittower ."
+alias gti="gittower --init"
+
+```bash
+
 
 ```
 
