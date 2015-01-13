@@ -7,5 +7,9 @@ title: Sublime text
 
 ```bash
 $ apm install Sublime-Style-Column-Selection
-$ apm install editorconfig emmet monokai atom-alignmen
+$ apm install atom-alignment editorconfig emmet
+$ apm install language-chef language-puppet language-nginx
+$ apm install markdown-preview pdf-view
+$ apm install monokai file-icons
+# $ apm install vim-mode
 ```
