@@ -44,7 +44,7 @@ $ gem install bundler foreman pg rails
 ## Pow.cx - zero-config Rack server
 
 ```bash
-$ curl get.pow.cx | sh
+$ brew install pow
 ```
 
 ## Tips

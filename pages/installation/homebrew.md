@@ -16,6 +16,8 @@ $ brew update
 $ brew install openssl
 $ brew install wget
 $ brew install curl tree git
+$ brew install bash zsh
+# $ brew install ossp-uuid ssh-copy-id
 $ brew install vim
 $ brew install imagemagick jpegoptim
 $ brew install ffmpeg

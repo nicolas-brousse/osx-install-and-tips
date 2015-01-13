@@ -14,25 +14,17 @@ $ brew install phinze/cask/brew-cask
 ### Commons applications
 
 ```bash
-$ brew cask install alfred evernote
-
 # Chat
-$ brew cask install skype screenhero
+$ brew cask install skype
 $ brew cask install teamviewer
 
 # Cloud services
-$ brew cask install dropbox droplr google-drive
+# $ brew cask install dropbox droplr google-drive
 $ brew cask install synology-cloud-station
 
 # Others
 $ brew cask install vlc spotify onyx mou
 $ brew cask install caffeine jumpcut quicklook-json
-```
-
-Link alfred to brew cask (Lauch it first)
-
-```bash
-$ brew cask alfred link
 ```
 
 
