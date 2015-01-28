@@ -34,7 +34,7 @@ $ gem update --system
 ## Config gem and install commons gem for rails dev
 
 ```bash
-$ echo 'gem: --no-rdoc --no-ri' >> ~/.gemrc
+$ echo 'gem: --no-document' >> ~/.gemrc
 ```
 
 ```bash
