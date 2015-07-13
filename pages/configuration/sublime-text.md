@@ -33,7 +33,7 @@ https://sublime.wbond.net/installation
 
 ## Packages to install
 
-* Alignement
+* Alignment
 * Emmet
 * Sass
 * SCSS
