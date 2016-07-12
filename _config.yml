@@ -21,20 +21,7 @@ baseurl: /osx-install-and-tips
 url: http://nicolas-brousse.github.io/
 
 
-
-#### Under the Hood Stuff #####
-
-# Use rdiscount as the markdown engine because it generates html5 compliant code for stuff like footnotes
-# If you use maroku (default engine) some of your generated pages may not validate or lint as html5
-# If you don't have it install it via gem install rdiscount
-markdown: redcarpet
-
-pygments: true
-
-# Continue compiling even if there are errors. Keep it true, unless troubleshooting.
-auto: true
-
-server: true
+markdown: kramdown
 
 # Makes pretty (descriptive) permalinks. See Jekyll docs for alternatives.
 permalink: pretty
@@ -42,5 +29,13 @@ permalink: pretty
 # Exclude
 # exclude:
 
-redcarpet:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "tables"]
+gems:
+  - jekyll-mentions
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-paginate
+
+lsi: false
+
+timezone: Europe/Paris
