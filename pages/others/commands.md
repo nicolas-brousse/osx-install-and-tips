@@ -17,9 +17,17 @@ $ say -f input.txt -o output.aiff -v alex
 ```
 
 
+## Apple defaults
+
+### Screecapture
+
+```bash
+$ defaults write com.apple.screencapture location ~/Pictures
+```
+
 ## Checksum
 
-*shasum*
+### shasum
 
 ```bash
 $ shasum -a 512 /path/to/file
@@ -67,3 +75,10 @@ $ diff -rq folder-1 folder-2
 ```bash
 $ perl -p -i -e 's/oldstring/newstring/g' to_file.txt
 ```
+
+## Count lines in a file
+
+```bash
+$ wc -l file.txt
+```
+
