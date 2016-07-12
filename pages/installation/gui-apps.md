@@ -3,74 +3,85 @@ layout: page
 title: GUI Applications
 ---
 
-## Installation (http://caskroom.io)
+## Mas
+
+### Installation (https://github.com/argon/mas)
 
 ```bash
-$ brew install phinze/cask/brew-cask
+$ brew install mas
 ```
 
-## Applications
+### Applications
 
-### Commons applications
+```bash
+$ mas install 409789998 409201541 409183694 409203825
+```
+
+## Caskroom
+
+### Installation (http://caskroom.io)
+
+```bash
+$ brew tap caskroom/cask
+```
+
+### Applications
+
+#### Commons applications
 
 ```bash
 # Chat
-$ brew cask install skype
-$ brew cask install teamviewer
+$ brew cask install skype slack mattermost
 
 # Cloud services
-# $ brew cask install dropbox droplr google-drive
-$ brew cask install synology-cloud-station
+$ brew cask install synology-cloud-station-drive
 
 # Others
-$ brew cask install vlc spotify onyx mou
-$ brew cask install caffeine jumpcut quicklook-json
+$ brew cask install spotify mou
+$ brew cask install jumpcut quicklook-json
 ```
 
 
-### Browsers
+#### Browsers
 
 ```bash
-$ brew cask install google-chrome [firefox] [opera]
+$ brew cask install firefox firefoxdeveloperedition google-chrome [opera]
 ```
 
 
-### Dev applications
+#### Dev applications
 
 ```bash
 # To code
-$ brew cask install cocoarestclient sequel-pro sublime-text atom
-$ brew cask install github tower kaleidoscope transmit
-$ brew cask install virtualbox vagrant-manager vagrant
+$ brew cask install cocoarestclient sequel-pro psequel atom
+$ brew cask install tower kaleidoscope cyberduck
+$ brew cask install virtualbox vagrant
 
 # Android
-$ brew cask install android-studio # No already tested
-
-# For ruby
-$ brew cask install anvil
+# $ brew cask install android-studio # No already tested
 
 # For pictures
-$ brew cask install imageoptim imagealpha texturepacker
+$ brew cask install imageoptim imagealpha # texturepacker
 
 # For networks
 $ brew cask install cocoapacketanalyzer speedlimit
 ```
 
 
-### Conception applications
+#### Conception applications
 
 ```bash
 $ brew cask install mysqlworkbench xmind
-$ brew cask install omnigraffle omniplan
-$ brew cask install adobe-creative-cloud
+# $ brew cask install omnigraffle omniplan
+# $ brew cask install adobe-creative-cloud
 ```
 
 ## Others app available
 
 See this list: https://github.com/phinze/homebrew-cask/tree/master/Casks
 
-**https://github.com/phinze/homebrew-cask**
-**https://github.com/caskroom/homebrew-fonts**
+**https://github.com/phinze/homebrew-cask**  
+**https://github.com/caskroom/homebrew-fonts**  
 **https://github.com/caskroom/homebrew-versions**
 
 ---

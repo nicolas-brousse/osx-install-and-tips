@@ -22,9 +22,9 @@ Add the `rbenv` plugin to OhMyZsh config.
 ## Install ruby
 
 ```bash
-$ rbenv install 2.1.2
+$ rbenv install 2.3.1
 # Define ruby 2.1.2 as default
-$ rbenv global 2.1.2
+$ rbenv global 2.3.1
 ```
 
 ```bash

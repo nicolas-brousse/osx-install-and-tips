@@ -4,7 +4,7 @@ title: Oh My Zsh
 ---
 
 ```bash
-$ curl -L http://install.ohmyz.sh | sh
+$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ```
 
 ### Update config
@@ -37,22 +37,23 @@ ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[red]%}✗%{$reset_color%}"
 
 ```bash
 # ~/.oh-my-zsh/custom/plugins/nicolas-brousse/nicolas-brousse.plugin.zsh
-p() { cd ~/Projects/$1; }
 _p() { _files -W ~/Projects -/; }
-compdef _p p
 
 # Alias
-alias jekyllserve="jekyll serve -w -b ''"
+alias jekyllserve="jekyll serve -w -D --future -b ''"
 
-```
-# ~/.oh-my-zsh/custom/plugins/nicolas-brousse/gittower.plugin.zsh
 alias gt="gittower"
 alias gtt="gittower ."
 alias gti="gittower --init"
 
-```bash
+alias at="atom"
+alias att="atom ."
 
 
+p() { cd ~/Projects/$1; }
+compdef _p p
+pat() { at ~/Projects/$1; }
+compdef _p pat
 ```
 
 #### Commands

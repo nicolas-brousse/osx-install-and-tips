@@ -6,7 +6,7 @@ title: Homebrew
 ## Homebrew installation
 
 ```bash
-$ ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 $ brew update
 ```
 
@@ -31,6 +31,13 @@ $ brew install heroku-toolbelt
 $ brew install postgresql [mysql] [sqlite]
 $ brew install redis memcached
 ```
+
+Now we lock the database formulae to avoid auto update.
+
+```bash
+$ brew pin postgresql [mysql] [sqlite]
+```
+
 
 ## Checks all is good
 
