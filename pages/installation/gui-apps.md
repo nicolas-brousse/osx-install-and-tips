@@ -55,7 +55,7 @@ $ brew cask install firefox firefoxdeveloperedition google-chrome [opera]
 # To code
 $ brew cask install cocoarestclient sequel-pro psequel atom
 $ brew cask install tower kaleidoscope cyberduck
-$ brew cask install virtualbox vagrant
+$ brew cask install virtualbox vagrant docker
 
 # Android
 # $ brew cask install android-studio # No already tested
@@ -83,9 +83,3 @@ See this list: https://github.com/phinze/homebrew-cask/tree/master/Casks
 **https://github.com/phinze/homebrew-cask**  
 **https://github.com/caskroom/homebrew-fonts**  
 **https://github.com/caskroom/homebrew-versions**
-
----
-
-### TODO
-
-- Parallels

@@ -10,19 +10,29 @@ $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/inst
 $ brew update
 ```
 
+## Add some Homebrew repositories
+
+```bash
+$ brew tap Homebrew/bundle
+$ brew tap homebrew/services
+```
+
 ## Install commons
 
 ```bash
 $ brew install openssl
-$ brew install wget
-$ brew install curl tree git
+$ brew install wget curl tree htop
+$ brew install git git-lfs git-extras
 $ brew install bash zsh
-# $ brew install ossp-uuid ssh-copy-id
+# $ brew install ossp-uuid
+$ brew install ssh-copy-id duck
 $ brew install vim
 $ brew install imagemagick jpegoptim
 $ brew install ffmpeg
 $ brew install node
-$ brew install heroku-toolbelt
+
+$ brew install scw # Scaleway.com CLI
+
 ```
 
 ## Databases
@@ -54,10 +64,3 @@ Somes tips [here]({{ site.baseurl }}/pages/tips/homebrew).
 
 - http://robots.thoughtbot.com/starting-and-stopping-background-services-with-homebrew
 - http://robots.thoughtbot.com/brewfile-a-gemfile-but-for-homebrew
-
-```bash
-$ brew install android-sdk
-$ brew install automysqlbackup ??
-
-$ brew install zsh......
-```

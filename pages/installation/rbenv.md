@@ -9,12 +9,6 @@ title: Rbenv
 $ brew install rbenv ruby-build
 ```
 
-## Rbenv plugins
-
-```bash
-brew install rbenv-gem-rehash [rbenv-bundler]
-```
-
 ## OhMyZsh
 
 Add the `rbenv` plugin to OhMyZsh config.
@@ -41,10 +35,10 @@ $ echo 'gem: --no-document' >> ~/.gemrc
 $ gem install bundler foreman pg rails
 ```
 
-## Pow.cx - zero-config Rack server
+## Puma-dev - local proxy for rack applications
 
 ```bash
-$ brew install pow
+$ brew install puma/puma/puma-dev
 ```
 
 ## Tips

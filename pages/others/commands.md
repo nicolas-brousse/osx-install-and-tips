@@ -30,6 +30,7 @@ $ defaults write com.apple.screencapture location ~/Pictures
 ### shasum
 
 ```bash
+$ shasum -a 256 /path/to/file
 $ shasum -a 512 /path/to/file
 ```
 
@@ -81,4 +82,3 @@ $ perl -p -i -e 's/oldstring/newstring/g' to_file.txt
 ```bash
 $ wc -l file.txt
 ```
-

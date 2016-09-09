@@ -14,7 +14,7 @@ ZSH_THEME="nicolas-brousse"
 
 ...
 
-plugins=(nicolas-brousse git osx rbenv brew brew-cask bundler colorize sublime atom rails pow lol gitignore github gem encode64 docker colored-man capistrano xcode heroku vagrant systemadmin battery gittower ssh-agent)
+plugins=(nicolas-brousse git osx rbenv brew brew-cask bundler colorize atom rails lol gitignore github gem encode64 docker colored-man capistrano xcode vagrant systemadmin battery ssh-agent)
 
 # Uncomment this line
 export ARCHFLAGS="-arch x86_64"
@@ -49,11 +49,14 @@ alias gti="gittower --init"
 alias at="atom"
 alias att="atom ."
 
+alias sha256sum="shasum -a 256"
+
 
 p() { cd ~/Projects/$1; }
 compdef _p p
 pat() { at ~/Projects/$1; }
 compdef _p pat
+
 ```
 
 #### Commands
