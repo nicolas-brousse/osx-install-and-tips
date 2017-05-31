@@ -13,7 +13,7 @@ $ brew update
 ## Add some Homebrew repositories
 
 ```bash
-$ brew tap Homebrew/bundle
+$ brew tap homebrew/bundle
 $ brew tap homebrew/services
 ```
 
@@ -22,16 +22,17 @@ $ brew tap homebrew/services
 ```bash
 $ brew install openssl
 $ brew install wget curl tree htop
-$ brew install git git-lfs git-extras
+$ brew install git git-lfs git-extras gist
 $ brew install bash zsh
 # $ brew install ossp-uuid
 $ brew install ssh-copy-id duck
-$ brew install vim
+$ brew install vim macvim
 $ brew install imagemagick jpegoptim
-$ brew install ffmpeg
-$ brew install node
+$ brew install node yarn
+$ brew install ffmpeg --with-x265
 
 $ brew install scw # Scaleway.com CLI
+$ brew install forego
 
 ```
 

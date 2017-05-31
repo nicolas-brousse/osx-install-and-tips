@@ -37,7 +37,7 @@ $ brew cask install skype slack mattermost
 $ brew cask install synology-cloud-station-drive
 
 # Others
-$ brew cask install spotify mou
+$ brew cask install spotify macdown
 $ brew cask install jumpcut quicklook-json
 ```
 
@@ -45,7 +45,7 @@ $ brew cask install jumpcut quicklook-json
 #### Browsers
 
 ```bash
-$ brew cask install firefox firefoxdeveloperedition google-chrome [opera]
+$ brew cask install firefox firefoxdeveloperedition chromium [opera]
 ```
 
 
@@ -53,7 +53,8 @@ $ brew cask install firefox firefoxdeveloperedition google-chrome [opera]
 
 ```bash
 # To code
-$ brew cask install cocoarestclient sequel-pro psequel atom
+$ brew cask install cocoarestclient paw
+$ brew cask install sequel-pro psequel postico
 $ brew cask install tower kaleidoscope cyberduck
 $ brew cask install virtualbox vagrant docker
 
