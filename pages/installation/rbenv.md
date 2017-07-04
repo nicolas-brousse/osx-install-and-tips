@@ -35,6 +35,11 @@ $ echo 'gem: --no-document' >> ~/.gemrc
 $ gem install bundler foreman pg rails
 ```
 
+```bash
+# Parallelize gems installation with bundle
+$ bundle config --global jobs `expr $(sysctl -n hw.ncpu) - 1`
+```
+
 ## Puma-dev - local proxy for rack applications
 
 ```bash
@@ -53,3 +58,4 @@ https://gist.github.com/brentertz/1384279
 https://gist.github.com/jpantuso/1110217  
 http://www.bounga.org/ruby/2012/02/06/pow-using-rbenv/
 http://robots.thoughtbot.com/using-rbenv-to-manage-rubies-and-gems
+https://robots.thoughtbot.com/parallel-gem-installing-using-bundler
